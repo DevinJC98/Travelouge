@@ -12,8 +12,6 @@ body {
     whitesmoke,
     whitesmoke,
     lightblue,
-    lightblue,
-    whitesmoke,
     lightblue
   );
   color: black;
@@ -27,12 +25,11 @@ header {
   align-items: center;
   height: 12vw;
   width: 100%;
+  padding: 2%;
   background-color: whitesmoke;
 }
 
 header h1 {
-  padding: 2%;
-  margin: 0;
   font-size: 3rem;
   font-family: "Protest Revolution", "Times New Roman", serif;
 }
@@ -70,13 +67,13 @@ main {
 }
 
 #intro {
-  height: 70vh;
+  height: 80vh;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin: auto 0;
   font-size: 1.7rem;
-  border: 0px solid black;
+  border: 1px solid black;
 }
 
 .country {
@@ -94,4 +91,43 @@ main {
   max-width: 35%;
   margin: 2.5%;
   box-shadow: 5px 5px 15px black;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 15vh;
+  }
+  header h1 {
+    font-size: 2.2rem;
+    margin: 2.5%;
+  }
+  nav a {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  main {
+    max-width: 90%;
+  }
+  header h1 {
+    font-size: 1.6rem;
+  }
+  header hr {
+    visibility: hidden;
+  }
+  #intro p {
+    font-size: 1rem;
+  }
+  .country {
+    justify-content: center;
+  }
+  .country article {
+    font-size: 0.8rem;
+    max-width: 100%;
+    margin-top: 5vh;
+  }
+  .country img {
+    max-width: 40%;
+    margin-top: -10vh;
+  }
 }
