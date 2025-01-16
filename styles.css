@@ -52,7 +52,6 @@ nav {
   top: 0px;
   font-family: "Solitreo", "Times New Roman", Times, serif;
   box-shadow: 0 5px 5px -3px black;
-  border: 0px solid red;
 }
 
 nav a {
@@ -73,6 +72,7 @@ main {
   justify-content: center;
   margin: auto 0;
   font-size: 1.7rem;
+  border: 0;
 }
 
 .country {
