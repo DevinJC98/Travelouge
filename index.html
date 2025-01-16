@@ -10,13 +10,13 @@
   </head>
 
   <body>
-    <header id="header">
+    <header id="introLink">
       <h1>Devin's Travel Highlights</h1>
       <hr />
     </header>
 
     <nav>
-      <a href="#header">Intro</a>
+      <a href="#introLink">Intro</a>
       <a href="#swe"> Sweden </a>
       <a href="#mex"> Mexico </a>
       <a href="#aus"> Austria </a>
@@ -38,7 +38,7 @@
       <section id="swe" class="country">
         <article>
           <h2>Gothenburg, Sweden</h2>
-          <h2>Current Time - 3:42PM</h2>
+          <h2 id="swedenTime"></h2>
           <p>
             Along the south-west coast of Sweden lies the city of Gothenburg.
             Being the second largest city in the country it is only natural that
@@ -59,7 +59,7 @@
       <section id="mex" class="country">
         <article>
           <h2>San Jose del Cabo, Mexico</h2>
-          <h2>Current Time - 6:21PM</h2>
+          <h2 id="caboTime"></h2>
           <p>
             Mexico is known far and wide for it's beautiful sandy beaches and
             its tropical climate. San Jose del cabo is no exception to this. Nestled inside Baja Calafornia sur, Cabo has long stretched of beaches as well as amazing rock formations along its coast. For those with access to a vehicle, San Jose del Cabo is close to several spots worth visiting such as Cabo San Lucas, waterfalls in Santiago, or Hotel California in Todo Santos.
@@ -75,7 +75,7 @@
       <section id="aus" class="country">
         <article>
           <h2>Filzmoosalm, Austria</h2>
-          <h2>Current Time - 6:29PM</h2>
+          <h2 id="austriaTime"></h2>
           <p>
             While there are many things do do and see in Austria, the best experience i had was at a small alm on top of a mountain. Filzmoosalm is located atop filzmooshorndl near grobbarl austria. Not only are the mountains themselves gorgeuous, the alm was incredibly charming. The alm was essentially a small, free-range cattle farm that harkened back to a simpler time. With no electricity, you would socialize with other travelers at night, and had the opportunity to wake up at 4am to help herd the cattle down the mountain.
           </p>
@@ -87,6 +87,7 @@
         <img src="images/austria.jpg" alt="placeholder" />
       </section>
 
-    <script src="navHider.js"></script>
+      <script src="timezoneHandler.js"></script>
+    
   </body>
 </html>
