@@ -7,13 +7,7 @@
 }
 
 body {
-  background-image: linear-gradient(
-    150deg,
-    whitesmoke,
-    whitesmoke,
-    lightblue,
-    lightblue
-  );
+  background-image: linear-gradient(170deg, whitesmoke, rgb(191, 235, 249));
   color: black;
   margin: 0;
 }
@@ -90,6 +84,12 @@ main {
   max-width: 35%;
   margin: 2.5%;
   box-shadow: 5px 5px 15px black;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2%;
 }
 
 @media screen and (max-width: 1024px) {

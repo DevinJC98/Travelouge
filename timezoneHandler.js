@@ -17,8 +17,10 @@ window.addEventListener("load", function () {
 
     document.getElementById("swedenTime").innerHTML =
       "Current Time - " + europeTime;
+
     document.getElementById("caboTime").innerHTML =
       "Current Time - " + caboTime;
+
     document.getElementById("austriaTime").innerHTML =
       "Current Time - " + europeTime;
   }, 1000);
