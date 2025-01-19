@@ -116,9 +116,11 @@ footer {
   }
   #intro p {
     font-size: 1rem;
+    max-width: 80%;
   }
   .country {
     justify-content: center;
+    flex-direction: column;
   }
   .country article {
     font-size: 0.8rem;
@@ -126,7 +128,7 @@ footer {
     margin-top: 5vh;
   }
   .country img {
-    max-width: 40%;
-    margin-top: -10vh;
+    max-width: 55%;
+    margin: 2%;
   }
 }
