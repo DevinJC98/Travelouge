@@ -51,6 +51,11 @@ nav {
 nav a {
   color: black;
   font-size: 2rem;
+  transition: 0.5s;
+  font-weight: bold;
+}
+nav a:hover {
+  scale: 1.2;
 }
 
 main {
@@ -120,7 +125,6 @@ footer {
   }
   .country {
     justify-content: center;
-    flex-direction: column;
   }
   .country article {
     font-size: 0.8rem;
@@ -128,7 +132,7 @@ footer {
     margin-top: 5vh;
   }
   .country img {
-    max-width: 55%;
+    max-width: 40%;
     margin: 2%;
   }
 }
